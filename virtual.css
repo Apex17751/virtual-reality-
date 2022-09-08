@@ -253,7 +253,7 @@ a:hover{
     
 }
 .text-hover{
-    padding-left: 40px;
+    padding-left: 20px;
     margin-top: 50px;
     color: #fff;
 }
@@ -261,6 +261,8 @@ a:hover{
 .text-hover p{
     padding-top: 20px;
     padding-bottom: 30px;
+    width: 290px;
+    align-items: center;
 }
 .text-hover a{
     padding-top: 15px; 
@@ -286,6 +288,32 @@ a:hover{
         font-size: 16px;
     }
 }
+
+@media(max-width:700px){
+    .overlay{
+        width: 100%;
+    }
+    .first-img img{
+        width: 100%;
+    }
+    .first-text h1{
+        width: 100%;
+        font-size: 20px;
+    }
+    .first-text p{
+        font-size: 13px; 
+    }
+    .second-text p{
+        
+        font-size: 13px; 
+    }
+    .second-text h1{
+        width: 100%;
+        font-size: 20px;
+    }
+}
+
+
 .flex-side{
     margin-right: 70px;
 }
@@ -295,6 +323,7 @@ a:hover{
 }
 .first-img img{
     border-radius: 13px;
+    width: 100%;
 }
 .overlay{
     width: 100%;
@@ -320,7 +349,7 @@ a:hover{
 }
 .first-text p{
     text-align: center;
-    width: 300px;
+    width: 100%;
 }
 .first-text h1{
     text-align: center;
@@ -370,6 +399,7 @@ a:hover{
 }
 .second-img img{
     border-radius: 13px;
+    width: 100%;
 }
 .second-img:hover .second-text{
     bottom: 30%;
@@ -385,7 +415,7 @@ a:hover{
 }
 .second-text p{
     text-align: center;
-    width: 300px;
+    width: 100%;
 }
 .second-text h1{
     text-align: center;
@@ -428,12 +458,14 @@ a:hover{
 }
 .icons-activate h1{
     color: #064987;
+    width: 100%;
     text-align: center;
 }
 .icons-activate p{
     margin-bottom: 30px;
     color: #064987;
     text-align: center;
+    width: 100%;
 }
 .icons-activate h4{
     font-weight: 400;
@@ -452,6 +484,7 @@ a:hover{
 }
 .icons-activate2 h1{
   color: #064987;
+  width: 100%;
   text-align: center;
     
 }
@@ -459,10 +492,12 @@ a:hover{
     margin-bottom: 30px;
     color: #064987;
     text-align: center;
+    width: 100%;
 }
 .icons-activate2 h4{
     font-weight: 400;
     text-align: center;
+    width: 100%;
 }
 .icons-activate3{
     width: 1100px;
@@ -518,6 +553,19 @@ a:hover{
     .eco-text{
         margin-top: 130px;
     }
+    .activate{
+        height: 1000px;
+        margin-bottom: -500px;
+    }
+    .eco-menu{
+        width: 300px;
+    }
+   @media(min-width:700px) {
+    .eco-menu{
+        width: 150px;
+    }
+    
+   }
 
 
 }
@@ -528,6 +576,7 @@ a:hover{
     background-image: url('bdg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 .eco-text{
@@ -628,6 +677,7 @@ a:hover{
 .newsletter h2{
     color: #EA9F00;
     margin-bottom: 160px;
+    font-size: 18px;
 }
 .texts{
     display: flex;
@@ -712,12 +762,15 @@ a:hover{
     }
     .footer-input{
         position: relative;
-        bottom: 300px;
+        bottom: 400px;
     }
     .texts{
         position: relative;
         top: 150px;
         width: 50px;
+    }
+    .text-eco h3, .text-eco2 h3, .text-eco3 h3, .text-eco4 h3{
+        font-size: 16px;
     }
     .footer-input h3{
         font-size: 18px;
@@ -726,11 +779,12 @@ a:hover{
     }
     #mail{
         width: 200px;
-        margin-left: 6%;
+        margin-left: 20%;
     }
     #submit{
         width: 200px;
-        margin-left: 6%;
+        margin-left: 20%;
         
     }
+    
 }
